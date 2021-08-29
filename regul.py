@@ -4,7 +4,7 @@ import csv
 with open("phonebook_raw.csv", encoding= 'utf-8') as f:
   rows = csv.reader(f, delimiter=",")
   contacts_list = list(rows)
-pprint(len(contacts_list)
+pprint(contacts_list)
 
 # TODO 1: выполните пункты 1-3 ДЗ
 # ваш код
